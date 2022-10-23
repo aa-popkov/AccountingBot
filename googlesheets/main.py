@@ -2,7 +2,6 @@ from pathlib import Path
 
 import googleapiclient.discovery
 from google.oauth2 import service_account
-import pandas as pd
 
 
 class GoogleSheet:
