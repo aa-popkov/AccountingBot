@@ -39,6 +39,7 @@ class Currency(NamedTuple):
 class AdditionCategory(NamedTuple):
     zp: str = "💰Зарплата"
     cashback: str = "💳Кешбек"
+    bank: str = "🏦 Банки/Инвестиции"
     gifts: str = "🎁Подарки"
 
 
